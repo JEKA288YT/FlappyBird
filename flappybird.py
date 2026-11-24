@@ -12,7 +12,7 @@ clock = time.Clock()
 
 
 current_volume = 0.0
-VOICE_THRESHOLD = 0.07
+VOICE_THRESHOLD = 0.02
 
 def audio_callback(indata, frames, time_info, status):
     global current_volume
